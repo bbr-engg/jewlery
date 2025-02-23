@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://luxe-artisan.vercel.app'),
   title: "Luxe Artisan - Artificial Jewelry Boutique",
   description: "Discover our exquisite collection of handcrafted artificial jewelry pieces.",
   keywords: [
